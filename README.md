@@ -1,1 +1,1 @@
-### A demo app t get started with `react-redux`
+### A demo app to get started with `react-redux`
