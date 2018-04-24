@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import "../index.css";
 
 const mapStateToProps = state => {
   return { articles: state.articles };
@@ -8,7 +9,7 @@ const mapStateToProps = state => {
 const ConnectedList = ({ articles }) => (
   <ul>
     {articles.map(el => (
-      <li key={el.id}>
+      <li className="ListText" key={el.id}>
         {el.title}
       </li>
     ))}

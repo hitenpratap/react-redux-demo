@@ -1,5 +1,11 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.TextCenter{
+  text-align: center;
+}
+
+.BorderLayout{
+  border:1px solid black;
+}
+
+.ListText{
+  font-family: 'Exo 2', sans-serif;
 }
